@@ -1,0 +1,19 @@
+{
+  "objective": "To acquire a computer programming position that can further extend my knowledge of software engineering, programming, and or game development.",
+  "languages": [
+    { "languageName": "C#", "experience": "4 Years" },
+    { "languageName": "Java", "experience": "5 Years" },
+    {
+      "languageName": "JavaScript, Pyth0on, C++, MySQL",
+      "experience": "1 Year"
+    }
+  ],
+  "experience": [
+    {
+      "jobTitle": "TEACHER’S ASSOCIATE: DISCRETE STRUCTURES, CALIFORNIA STATE UNIVERSITY, LOS ANGELES",
+      "from": "Jan 2021",
+      "to": "Dec 2021",
+      "description": "As a teacher’s associate for discrete structures, my responsibilities include grading student homework, host problem solving activities for their finished homework on zoom every week, and proctor exams that were taken place."
+    }
+  ]
+}

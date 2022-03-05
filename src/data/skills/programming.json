@@ -1,0 +1,8 @@
+[
+  { "language": "C#", "years": 4 },
+  { "language": "C++", "years": 2 },
+  { "language": "Java", "years": 6 },
+  { "language": "JavaScript", "years": 2 },
+  { "language": "MySQL", "years": 2 },
+  { "language": "Python", "years": 2 }
+]
