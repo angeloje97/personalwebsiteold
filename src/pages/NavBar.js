@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 const NavBar = () => {
   const links = [
@@ -19,9 +20,9 @@ const NavBar = () => {
 const NavLink = ({ data }) => {
   return (
     <Link to={data.link}>
-      <button variant="contained" color="primary">
+      <Button variant="contained" color="primary">
         {data.linkName}
-      </button>
+      </Button>
     </Link>
   );
 };
