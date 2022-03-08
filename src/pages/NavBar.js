@@ -5,8 +5,11 @@ import { Button } from "@mui/material";
 const NavBar = () => {
   const links = [
     { linkName: "Home", link: "/" },
+    { linkName: "Hobbies", link: "/hobbies" },
     { linkName: "Resume", link: "/resume" },
-    { linkName: "Programming", link: "programming" },
+    { linkName: "Programming", link: "/programming" },
+    { linkName: "Motion Graphics", link: "/motiongraphics" },
+    { linkName: "Video Production", link: "/videoproduction" },
   ];
   return (
     <React.Fragment>
