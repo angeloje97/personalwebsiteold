@@ -2,15 +2,11 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Container } from "@mui/material";
 
-import Home from "./home-page/home";
-import Resume from "./resume/resume";
+import Home from "./home-page/HomePage";
+import Resume from "./resume/ResumePage";
 import NavBar from "./NavBar";
 
-const pageData = require("../data/resumes/programmingResume.json");
-
 const PageHandler = () => {
-  console.log(pageData);
-
   return (
     <Container>
       <Router>

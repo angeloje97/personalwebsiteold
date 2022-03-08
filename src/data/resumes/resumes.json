@@ -1,0 +1,35 @@
+[
+  {
+    "resumeName": "Programming Resume",
+    "objective": "To acquire a computer programming position that can further extend my knowledge of software engineering, programming, and or game development.",
+    "languages": [
+      { "languageName": "C#", "experience": "4 Years" },
+      { "languageName": "Java", "experience": "5 Years" },
+      {
+        "languageName": "JavaScript, Pyth0on, C++, MySQL",
+        "experience": "1 Year"
+      }
+    ],
+    "experiences": [
+      {
+        "jobTitle": "TEACHER’S ASSOCIATE: DISCRETE STRUCTURES, CALIFORNIA STATE UNIVERSITY, LOS ANGELES",
+        "from": "Jan 2021",
+        "to": "Dec 2021",
+        "description": "As a teacher’s associate for discrete structures, my responsibilities include grading student homework, host problem solving activities for their finished homework on zoom every week, and proctor exams that were taken place."
+      }
+    ],
+    "computerSkills": [
+      "Microsoft Word",
+      "Excel",
+      "Power Point",
+      "Adobe PhotoShop",
+      "After Effects",
+      "Premiere Pro",
+      "Unity",
+      "Eclipse",
+      "Visual Studios",
+      "VS Code"
+    ],
+    "experienceInProgramming": "I've developed programs such as a tic tac toe game vs another player or an AI with C++ in Visual Studios. Made a Flappy Bird clone game with Python. I made multiple web applications with java servlets using Eclipse. I'm currently working on a passion project on which is a game that I'm creating with Unity called Architome. Most of the projects that I worked on can be found in my website for further information which also provides GitHub links to the source code of the projects."
+  }
+]
