@@ -1,21 +1,21 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "@mui/material";
+import { Button, Stack, Divider } from "@mui/material";
 
 const NavBar = () => {
-  const links = [
-    { linkName: "Home", link: "/" },
-    { linkName: "Hobbies", link: "/hobbies" },
-    { linkName: "Resume", link: "/resume" },
-    { linkName: "Programming", link: "/programming" },
-    { linkName: "Motion Graphics", link: "/motiongraphics" },
-    { linkName: "Video Production", link: "/videoproduction" },
-  ];
+  const links = require("../data/pageLinks.json");
+
   return (
     <React.Fragment>
-      {links.map((data) => {
-        return <NavLink data={data} key={data.link} />;
-      })}
+      <Stack
+        direction="row"
+        spacing={2}
+        divider={<Divider orientation="vertical" flexItem />}
+      >
+        {links.map((data) => {
+          return <NavLink data={data} />;
+        })}
+      </Stack>
     </React.Fragment>
   );
 };
@@ -23,9 +23,7 @@ const NavBar = () => {
 const NavLink = ({ data }) => {
   return (
     <Link to={data.link}>
-      <Button variant="contained" color="primary">
-        {data.linkName}
-      </Button>
+      <Button color="primary">{data.linkName}</Button>
     </Link>
   );
 };

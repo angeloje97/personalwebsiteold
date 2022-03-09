@@ -5,6 +5,8 @@ import { Container } from "@mui/material";
 import Home from "./home-page/HomePage";
 import Resume from "./resume/ResumePage";
 import Programming from "./programming-page/ProgrammingPage";
+import MotionGraphics from "./motion-graphics-page/MotionGraphics";
+import GraphicDesign from "./graphic-design-page/GraphicDesign";
 import NavBar from "./NavBar";
 
 const PageHandler = () => {
@@ -17,6 +19,8 @@ const PageHandler = () => {
           <Route exact path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/programming" element={<Programming />} />
+          <Route path="/motiongraphics" element={<MotionGraphics />} />
+          <Route path="/graphicdesign" element={<GraphicDesign />} />
         </Routes>
       </Router>
     </Container>

@@ -1,0 +1,9 @@
+[
+  { "linkName": "Home", "link": "/" },
+  { "linkName": "Hobbies", "link": "/hobbies" },
+  { "linkName": "Resume", "link": "/resume" },
+  { "linkName": "Programming", "link": "/programming" },
+  { "linkName": "Graphic Design", "link": "/graphicdesign" },
+  { "linkName": "Motion Graphics", "link": "/motiongraphics" },
+  { "linkName": "Video Production", "link": "/videoproduction" }
+]
