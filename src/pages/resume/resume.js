@@ -12,7 +12,7 @@ const Resume = ({ resume }) => {
         <section>
           <h4>Programming Languages</h4>
           {resume.languages.map((language) => (
-            <Language language={language} />
+            <Language language={language} key={language.languageName} />
           ))}
         </section>
       )}
@@ -21,7 +21,9 @@ const Resume = ({ resume }) => {
         <section>
           <h4>Experience</h4>
           {resume.experiences.map((experience) => {
-            return <Experience experience={experience} />;
+            return (
+              <Experience experience={experience} key={experience.jobTitle} />
+            );
           })}
         </section>
       )}
@@ -44,7 +46,9 @@ const Resume = ({ resume }) => {
         <section>
           <h4>References</h4>
           {resume.references.map((reference) => {
-            return <Reference reference={reference} />;
+            return (
+              <Reference reference={reference} key={reference.referenceName} />
+            );
           })}
         </section>
       )}

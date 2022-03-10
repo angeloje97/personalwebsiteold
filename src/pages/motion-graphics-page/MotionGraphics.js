@@ -7,9 +7,7 @@ const MotionGraphics = () => {
     <React.Fragment>
       {projects.map((project) => {
         return (
-          <section>
-            <MGProject project={project} />
-          </section>
+          <section>{project.link && <MGProject project={project} />}</section>
         );
       })}
     </React.Fragment>

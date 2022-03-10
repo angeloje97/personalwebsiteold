@@ -1,6 +1,5 @@
 import React from "react";
 import Video from "./Video";
-import { Link } from "@mui/material";
 
 const Project = ({ project }) => {
   const {
@@ -16,16 +15,16 @@ const Project = ({ project }) => {
     <React.Fragment>
       <h2>{projectName}</h2>
       <p>
-        Programming Language Used: {programmingLanguageUsed} | Lines of Code
+        Programming Language Used: {programmingLanguageUsed} | Lines of Code{" "}
         {linesOfCode}
       </p>
-      <p>Description: {projectDescription}</p>
-      <Link to={gitHubLink}>Source Code</Link>
+      <p>{projectDescription}</p>
+      {gitHubLink && gitHubLink !== "#" && <a href={gitHubLink}>Source Code</a>}
 
       {videos && (
         <section>
           {videos.map((video) => {
-            return <Video video={video} />;
+            return <Video video={video} key={video.videoName} />;
           })}
         </section>
       )}

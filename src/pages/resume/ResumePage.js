@@ -15,7 +15,7 @@ const ResumePage = () => {
   return (
     <React.Fragment>
       {resumes.map((resume) => {
-        return <Resume resume={resume} />;
+        return <Resume resume={resume} key={resume.resumeName} />;
       })}
     </React.Fragment>
   );

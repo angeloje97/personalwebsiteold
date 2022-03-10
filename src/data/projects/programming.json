@@ -16,7 +16,20 @@
           "The map is given a bunch of paths and every path has a room anchor.",
           "If the path is not in use, then the map will use that room anchor and spawn the room there."
         ],
-        "gitHubLinks": [{ "linkName": "Room Generator", "link": "#" }]
+        "gitHubLinks": [
+          {
+            "linkName": "MapRoomGenerator.cs",
+            "link": "https://github.com/angeloje97/architome-source-code/blob/main/MapBehavior/MapRoomGenerator.cs"
+          },
+          {
+            "linkName": "RoomInfo.cs",
+            "link": "https://github.com/angeloje97/architome-source-code/blob/main/MapBehavior/RoomInfo.cs"
+          },
+          {
+            "linkName": "PathInfo.cs",
+            "link": "https://github.com/angeloje97/architome-source-code/blob/main/MapBehavior/PathInfo.cs"
+          }
+        ]
       },
       {
         "videoName": "Self Opening Paths",

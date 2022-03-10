@@ -7,7 +7,7 @@ const ProgrammingPage = () => {
   return (
     <React.Fragment>
       {projects.map((project) => {
-        return <Project project={project} />;
+        return <Project project={project} key={project.projectName} />;
       })}
     </React.Fragment>
   );

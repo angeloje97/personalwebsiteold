@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button, Stack, Divider } from "@mui/material";
+import { Button, Stack, Divider, Link } from "@mui/material";
 
 const NavBar = () => {
   const links = require("../data/pageLinks.json");
@@ -13,7 +12,7 @@ const NavBar = () => {
         divider={<Divider orientation="vertical" flexItem />}
       >
         {links.map((data) => {
-          return <NavLink data={data} />;
+          return <NavLink data={data} key={data.link} />;
         })}
       </Stack>
     </React.Fragment>
@@ -22,7 +21,7 @@ const NavBar = () => {
 
 const NavLink = ({ data }) => {
   return (
-    <Link to={data.link}>
+    <Link href={data.link} underline="none">
       <Button color="primary">{data.linkName}</Button>
     </Link>
   );
