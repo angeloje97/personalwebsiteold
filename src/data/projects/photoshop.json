@@ -1,13 +1,13 @@
 [
   {
-    "projectName": "Self Portrait Project",
-    "projectDescription": [
+    "name": "Self Portrait Project",
+    "description": [
       "This project was mainly about a personality trait and being able to show it through graphic design with photoshop",
       "The personality trait that I chose was night owl which is pretty obvious in the picture since it's just an owl in the night",
       "The skills that are shown here is being able to create a composition with different elements and being able to make it look like it's one picture",
       "A lot of work went into using the pen tool which enables me to crop images almost pixel perfect and paste it onto another image.",
       "Then a lot of post processing effects to make the images blend together to make it seem like it's all in one image."
     ],
-    "link": "../../images/GraphicDesign/selfPortrait.jpg"
+    "image": "selfPortrait.jpg"
   }
 ]

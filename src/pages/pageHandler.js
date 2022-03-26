@@ -14,7 +14,6 @@ const PageHandler = () => {
     <Container>
       <Router>
         <NavBar />
-
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />

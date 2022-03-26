@@ -9,6 +9,7 @@ const NavBar = () => {
       <Stack
         direction="row"
         spacing={2}
+        justifyContent="center"
         divider={<Divider orientation="vertical" flexItem />}
       >
         {links.map((data) => {
